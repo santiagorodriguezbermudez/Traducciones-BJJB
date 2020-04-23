@@ -33,7 +33,7 @@ function Services (props) {
             <Container id={props.id} >
                 <Row>
                     {servicios.map((servicio, index) => (
-                        <Col sm={false} md={true} lg={true} className='servicios-col'>
+                        <Col sm={12} md={true} lg={true} className='servicios-col'>
                             <CardServicio 
                                 logo={servicio.logo}
                                 titulo={servicio.titulo}
