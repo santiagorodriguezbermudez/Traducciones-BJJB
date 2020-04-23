@@ -18,7 +18,7 @@ function Form (props) {
 
                 <form onSubmit="/">
                     <input
-                    name="fName"
+                    name="fNameRodriguez"
                     placeholder="Escribe tu nombre"
                     />
                     <input
