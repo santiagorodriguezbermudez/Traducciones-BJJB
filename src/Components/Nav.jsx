@@ -46,7 +46,7 @@ function Navigation(props) {
             <Button 
                 className="ml-auto justify-content-end" 
                 variant="primary" 
-                onClick= '/contacto'
+                
             >
             Cotiza ya!
             </Button>

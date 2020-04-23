@@ -8,7 +8,7 @@ function Services (props) {
     
     const servicios = [
         {
-            logo: <i class="servicios-iconos fas fa-pen fa-5x"></i>,
+            logo: <i className="servicios-iconos fas fa-pen fa-5x"></i>,
             titulo: "Traducción Escrita",
             parrafo: [
                 'Traducciones oficiales con sello, firma y apostilla.',
@@ -17,7 +17,7 @@ function Services (props) {
             ]
         },
         {
-            logo: <i class="servicios-iconos fas fa-microphone fa-5x"></i>,
+            logo: <i className="servicios-iconos fas fa-microphone fa-5x"></i>,
             titulo: "Traducción Simultánea",
             parrafo: [
                 'Apostilla de documentos.',
@@ -33,7 +33,7 @@ function Services (props) {
             <Container id={props.id} >
                 <Row>
                     {servicios.map((servicio, index) => (
-                        <Col sm={12} md={true} lg={true} className='servicios-col'>
+                        <Col key={index} sm={12} md={true} lg={true} className='servicios-col'>
                             <CardServicio 
                                 logo={servicio.logo}
                                 titulo={servicio.titulo}

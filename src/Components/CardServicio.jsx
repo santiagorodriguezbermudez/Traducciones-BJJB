@@ -5,7 +5,7 @@ function CardServicio (props) {
         <div>
             {props.logo}
             <h3 className='servicios-titulo'>{props.titulo}</h3>
-            {props.parrafo.map(parrafo => (<p className='servicios-parrafo'>{parrafo}</p>))}
+            {props.parrafo.map((parrafo,index) => (<p className='servicios-parrafo' key={index}>{parrafo}</p>))}
         </div>
     )
 }
