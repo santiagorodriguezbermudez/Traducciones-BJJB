@@ -13,7 +13,7 @@ function About (props) {
                 <h4>Proyectos Completados: 
                     <CountUp
                         end={873}
-                        duration={15}
+                        duration={25}
                     />
                 </h4>
                 <p>Nuestros clientes son tanto empresas como personas naturales, privados como públicos, compañías locales y multinacionales en varios sectores, tales como ingeniería, tecnoglogía, educación, planeación, medicina, salud, legal, financiero, tecnológico y mercadeo.</p>

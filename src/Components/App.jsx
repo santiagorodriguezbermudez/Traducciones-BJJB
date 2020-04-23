@@ -17,9 +17,10 @@ function App() {
         
             <Hero id="container-header"/>
             <Services id='servicios'/>  
-            <TrackVisibility once>
+            <About id='about'/>
+            {/* <TrackVisibility once>
               {({ isVisible }) => isVisible && <About id="about"/>}
-            </TrackVisibility>       
+            </TrackVisibility>        */}
             <Footer id='footer'/>
         </Container>
     )
