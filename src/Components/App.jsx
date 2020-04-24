@@ -6,15 +6,18 @@ import {
   } from "react-router-dom";
 import Home from './Home';
 import Form from './Form';
+import { env } from '../config';
 
 
 function App() {
+
+    console.log(env)
     return(
         <Router>
           {/* A <Switch> revisa entre las <Route>s y renderiza el primero que coincida */}
           <Switch>
             <Route path="/contacto">
-              <Form />
+              <Form env={env}/>
             </Route>
             <Route path="/">
               <Home />

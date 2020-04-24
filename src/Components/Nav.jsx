@@ -15,7 +15,7 @@ function Navigation(props) {
     React.useEffect(() => {
       const handleScroll = () => {
           const show = window.scrollY > 50;
-          console.log(window.scrollY);
+
           if (navRef.current !== show) {
               setNavBackground(show)
           }
