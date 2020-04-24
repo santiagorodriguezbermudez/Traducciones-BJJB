@@ -14,7 +14,7 @@ p {
     font-family: 'Roboto Slab', serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     line-height: 2;
 }
@@ -169,10 +169,14 @@ h1, h2, h3, h4 {
     
 }
 
-.form{
-
+.form-element{
+    margin: 2rem auto;
 }
 
 .file-upload{
     
+}
+
+.form-button{
+    margin: 2rem auto;
 }

@@ -33,7 +33,7 @@ function Navigation(props) {
             style={{ transition: '0.5s ease' }}
             expand='md'
         >
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="/">
             <img
                 src="/img/Logo.png"
                 width="60"
@@ -56,7 +56,7 @@ function Navigation(props) {
                 
                 <Navbar.Toggle className="toogle-button"aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav.Link className="texto-nav" href="#about">Equipo</Nav.Link>
+                    <Nav.Link className="texto-nav" href="/#about">Equipo</Nav.Link>
                 </Navbar.Collapse>
                 
             </Nav>
