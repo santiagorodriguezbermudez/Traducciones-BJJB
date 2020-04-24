@@ -81,7 +81,7 @@ function Form (props) {
         <Box
         boxShadow={5}
         bgcolor="background.paper"
-        style={{ width: '30%', height: '10%', margin: "15rem auto", padding:'1rem' }}
+        style={{ width: '30%', height: '10%', margin: "15rem auto", padding:'1rem', minWidth: '20rem', maxWidth: '30rem'}}
         >
             <p>Gracias! Pronto nos comunicaremos contigo.</p>
         </Box>

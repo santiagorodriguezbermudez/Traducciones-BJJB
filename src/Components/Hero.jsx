@@ -8,7 +8,8 @@ function Hero(props) {
 
     return (
         <div id={props.id}>      
-        <h1 className='titular'><strong>Traduce tus {" "}</strong><ReactRotatingText items={arrayText}/></h1>
+        <h1 className='titular'><strong>Traduce tus</strong></h1>
+        <h1 className='titular'><em></em><ReactRotatingText items={arrayText}/></h1>
         <h3 className='sub-titular'>Construimos puentes de comunicación</h3>
         <Button variant="info" href="/contacto" >Cotiza ya!</Button>
         </div>
