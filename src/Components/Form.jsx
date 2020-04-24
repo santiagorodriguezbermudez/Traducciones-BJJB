@@ -23,11 +23,9 @@ function Form (props) {
             <Navigation/>
             <Hero id="container-header"/>
             <Box
-                boxShadow={3}
+                boxShadow={5}
                 bgcolor="background.paper"
-                m={0}
-                p={0}
-                style={{ width: '30%', height: '100%', margin: "2rem auto", padding:'1rem'  }}
+                style={{ width: '30%', height: '100%', margin: "2rem auto", padding:'1rem', minWidth: '30rem', maxWidth: '30rem' }}
             >
         
                 <Container className = 'form'>
