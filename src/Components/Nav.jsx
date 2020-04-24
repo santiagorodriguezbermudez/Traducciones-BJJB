@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
 
 
+
 function Navigation(props) {
 
     const [navBackground, setNavBackground] = React.useState(false);
@@ -46,10 +47,11 @@ function Navigation(props) {
             <Button 
                 className="ml-auto justify-content-end" 
                 variant="primary" 
-                
+                href="/contacto"    
             >
             Cotiza ya!
             </Button>
+
             <Nav className="right-menu" >
                 
                 <Navbar.Toggle className="toogle-button"aria-controls="responsive-navbar-nav"/>

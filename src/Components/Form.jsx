@@ -3,7 +3,11 @@ import Container from 'react-bootstrap/Container';
 import Footer from './Footer';
 import Navigation from './Nav';
 import Hero from './Hero';
-
+import FormControl from '@material-ui/core/FormControl';
+import InputLabel from '@material-ui/core/InputLabel';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import AccountCircle from '@material-ui/icons/AccountCircle';
+import Input from '@material-ui/core/Input';
 
 function Form (props) {
 
@@ -14,29 +18,22 @@ function Form (props) {
             <Hero id="container-header"/>
             
             <Container>
+
                 <h3>Si estas interesado, déjanos tus datos y nos pondremos en contacto</h3>
 
-                <form onSubmit="/">
-                    <input
-                    name="fName"
-                    placeholder="Escribe tu nombre"
+                <FormControl fullWidth className = 'form'>
+                    <InputLabel htmlFor="nombre">Nombre</InputLabel>
+                    <Input
+                        id="nombre"
+                        startAdornment = {
+                            <InputAdornment position="start">
+                                <AccountCircle />
+                            </InputAdornment>
+                        }
                     />
-                    <input
-                    name="lName"
-                    placeholder="Escibe tu apellido"
-                    />
-                    <input
-                    name="email"
-                    placeholder="Escribe tu Email"
-                    />
-                    <textarea
-                    name="content"
-                    placeholder="Déjanos tus comentatios..."
-                    rows={3}
-                    />
-                    <input type='file' className="file-upload" name="file" placeholder='Sube acá tu documento'></input>                   
-                    <button>Submit</button>
-                </form>
+
+                </FormControl>
+            
             </Container>
 
             <Footer id='footer'/>

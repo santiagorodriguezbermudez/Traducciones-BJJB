@@ -1,28 +1,26 @@
 import React from 'react';
-import Navigation from './Nav';
-import Hero from './Hero';
-import Services from './Services';
-import About from './About';
-import Footer from './Footer';
-import TrackVisibility from 'react-on-screen';
-import Container from 'react-bootstrap/Container';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+  } from "react-router-dom";
+import Home from './Home';
+import Form from './Form';
 
 
 function App() {
-
     return(
-
-        <Container id="home" fluid>
-            <Navigation/>
-        
-            <Hero id="container-header"/>
-            <Services id='servicios'/>  
-            <About id='about'/>
-            {/* <TrackVisibility once>
-              {({ isVisible }) => isVisible && <About id="about"/>}
-            </TrackVisibility>        */}
-            <Footer id='footer'/>
-        </Container>
+        <Router>
+          {/* A <Switch> revisa entre las <Route>s y renderiza el primero que coincida */}
+          <Switch>
+            <Route path="/contacto">
+              <Form />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+      </Router>
     )
 }
 
