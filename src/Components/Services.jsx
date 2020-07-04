@@ -9,20 +9,20 @@ function Services (props) {
     const servicios = [
         {
             logo: <i className="servicios-iconos fas fa-pen fa-5x"></i>,
-            titulo: "Traducción Escrita",
+            titulo: "Traducciones Escritas",
             parrafo: [
-                'Traducciones oficiales con sello, firma y apostilla.',
-                'Traducción de documentos para la obtención y renovación del Registro Único de Proponentes - RUP.',
-                'Traducción escrita de todo tipo de documentos: contratos, escrituras públicas, certificados, registros públicos, diplomas de grado, certificados de notas, manuales de equipos, informes, estados financieros, entre otros.'
+                'Traducciones oficiales de documentos con sello, firma y apostilla.',
+                'Traducción escrita de todo tipo de documentos: contratos, escrituras públicas, registros civiles, diplomas de grado, certificados de notas, manuales de equipos, informes, estados financieros, entre otros.',
+                'Traducción de documentos para la obtención y renovación del Registro Único de Proponentes - RUP.'
             ]
         },
         {
             logo: <i className="servicios-iconos fas fa-microphone fa-5x"></i>,
-            titulo: "Traducción Simultánea",
+            titulo: "Traducciones Simultáneas",
             parrafo: [
-                'Apostilla de documentos.',
-                'Traducción consecutiva de intervenciones: matrimonios civiles, juicios, declaraciones juramentadas, expoisiones, etc.',
-                'Traducción simultánea de cualquier tipo de exposición oral: presentaciones en público, reuniones privadas, conversaciones, recorridos por instalaciones, acompañamiento en ferias internacionales y viajes de negocio, entre otras actividades'
+                'Traducción en línea de webinars a través de plataformas como ZOOM.',
+                'Traducción simultánea de cualquier tipo de exposición: presentaciones en público, reuniones privadas, conversaciones, recorridos por edificaciones, acompañamiento en ferias internacionales y viajes de negocio, entre otras actividades.',
+                'Traducción consecutiva de intervenciones personales: matrimonios civiles, audiencias, declaraciones juramentadas, exposiciones, cursos, etc.'
             ]
         }
     ]
