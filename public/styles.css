@@ -48,10 +48,10 @@ h1, h2, h3, h4, h5, h6 {
 /* -----------------------------------------Hero----------------------------------------------- */
 
 #container-header{
-    background-image: url("img/Hero\ picture.jpg");
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%), url("img/Hero\ picture.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 35rem;
+    min-height: 40rem;
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;

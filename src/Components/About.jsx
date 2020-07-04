@@ -83,7 +83,7 @@ function About (props) {
             
             <Row className = 'mt-2'>
                 {testimonios.map((testimonio, index) => (
-                    <Col key={index} sm={true} md={6} lg={4} className='testimonios-col shadow rounded p-3'>
+                    <Col key={index} sm={12} md={6} lg={4} className='testimonios-col shadow rounded p-3'>
                         <div>
                             <p className='text-center font-italic'>{testimonio.texto}</p>
                             {testimonio.firma.map((firma,index) => (<h6 className='text-center font-weight-bold' key={index}>{firma}</h6>))}
