@@ -12,7 +12,7 @@ function About (props) {
         {
             texto: "El ingeniero Jorge Bermúdez Celín nos viene colaborando desde junio de 2015 y durante ese tiempo su trabajo se ha caracterizado por ser de alta calidad y siempre a tiempo, atendiendo nuestras exigencias. Los trabajos realizados por el ingeniero Bermúdez varían desde comunicaciones informales hasta documentos y contratos de alta complejidad en sus contenidos.",
             firma: [
-                'Paola Pérez M.',
+                'Paola Pérez M. ',
                 'Representante Legal',
                 'Royal Haskoning DHV - Colombia.'
             ]
@@ -80,19 +80,18 @@ function About (props) {
                         duration={25}
                     />
                 </h4>
-                <p>Nuestros clientes son tanto empresas como personas naturales, privados como públicos, compañías locales como multinacionales y en varios sectores, tales como: ingeniería, tecnología, educación, planeación, medicina, salud, legal, financiero y mercadeo.</p>
             
             <Row className = 'mt-2'>
                 {testimonios.map((testimonio, index) => (
-                    <Col key={index} sm={true} md={true} lg={true} className='testimonios-col'>
+                    <Col key={index} sm={true} md={6} lg={4} className='testimonios-col shadow rounded p-3'>
                         <div>
-                            <p className='text-center'>{testimonio.texto}</p>
+                            <p className='text-center font-italic'>{testimonio.texto}</p>
                             {testimonio.firma.map((firma,index) => (<h6 className='text-center font-weight-bold' key={index}>{firma}</h6>))}
                         </div>
                     </Col>
                 ))}
             </Row>
-
+            <p className = 'my-5'>Nuestros clientes son tanto empresas como personas naturales, privados como públicos, compañías locales como multinacionales y en varios sectores, tales como: ingeniería, tecnología, educación, planeación, medicina, salud, legal, financiero y mercadeo.</p>
             <Row>
                 <Col sm={false} md={true} lg={true} className="about-logos-competencia">
                     <img className="about-client-logo" src="img/Empresa-1.png" alt="logo-1"/>
@@ -109,6 +108,7 @@ function About (props) {
                     <img className="about-client-logo" src="img/Empresa-12.jpg" alt="logo-12"/>
                 </Col>
             </Row>
+                
             <Team id="equipo"/>        
         </Container>
     )
