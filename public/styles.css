@@ -89,7 +89,6 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-
 .servicios-col {
     text-align: center;
     margin: 2rem 2rem 2rem;
@@ -109,6 +108,12 @@ h1, h2, h3, h4, h5, h6 {
     width: 80%;
     margin: 2rem auto;
 }
+
+.testimonios-col {
+    text-align: center;
+    margin: 0;
+}
+
 .about-client-logo{
     max-width:10rem;
     max-height:10rem;
