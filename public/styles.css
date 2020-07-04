@@ -1,183 +1,186 @@
 
 /* -----------------------------------------All the document----------------------------------------------- */
 #home {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .icons {
-    padding: 2rem 0 2rem;
-    color: #00a8cc;
+  padding: 2rem 0 2rem;
+  color: #00a8cc;
 }
 
 p {
-    font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    line-height: 2;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
 }
 
 /* -----------------------------------------Nav Bar----------------------------------------------- */
 .active {
-    background-color: #00a8cc;
-    max-width: 1440px;
-    margin: 0 auto;
+  background-color: #00a8cc;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-.no-active{
-    background-color: transparent;
-    max-width: 1440px;
-    margin: 0 auto;
+.no-active {
+  background-color: transparent;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .right-menu {
-    margin-left: 2rem;   
+  margin-left: 2rem;
 }
 
-.toogle-button{
-    background-color: #00a8cc;
+.toogle-button {
+  background-color: #00a8cc;
 }
 
 .texto-nav {
-    color: black;
+  color: black;
 }
 
 /* -----------------------------------------Hero----------------------------------------------- */
 
-#container-header{
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%), url("img/Hero\ picture.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 40rem;
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding-top: 10rem;
-    text-align: center;
+#container-header {
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(255, 255, 255, 0.5) 50%, transparent 100%), url("img/Hero\ picture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 40rem;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 10rem;
+  text-align: center;
 }
 
 .titular {
-    font-size: xxx-large; 
+  font-size: xxx-large;
 }
 
-.sub-titular{
-    filter: opacity(90%);
-    color: #00a8cc;
+.sub-titular {
+  filter: opacity(90%);
+  color: #00a8cc;
 }
+
 /* -----------------------------------------Services----------------------------------------------- */
 #servicios {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding-top: 2rem;
-    background-color: #27496d;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  background-color: #27496d;
 }
 
 .servicios-iconos {
-    color: white;
-    margin: 0 0 2rem;
+  color: white;
+  margin: 0 0 2rem;
 }
 
 .servicios-titulo {
-    color: white;
-    margin: 0 0 2rem;
+  color: white;
+  margin: 0 0 2rem;
 }
 
 .servicios-parrafo {
-    color: white;
+  color: white;
 }
 
 .servicios-col {
-    text-align: center;
-    margin: 2rem 2rem 2rem;
+  text-align: center;
+  margin: 2rem 2rem 2rem;
 }
 
 /* -----------------------------------------About----------------------------------------------- */
 
 #about {
-    max-width: 1440px;
-    margin: 0 auto;
-    text-align: center;
-    padding: 2rem 0 0;
-    line-height: 2;
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0 0;
+  line-height: 2;
 }
 
-#about p{
-    width: 80%;
-    margin: 2rem auto;
+#about p {
+  width: 80%;
+  margin: 2rem auto;
 }
 
 .testimonios-col {
-    text-align: center;
-    margin: 0;
+  text-align: center;
+  margin: 0;
 }
 
-.about-client-logo{
-    max-width:10rem;
-    max-height:10rem;
-    width:auto;
-    height:auto; 
-    margin: 1rem; 
+.about-client-logo {
+  max-width: 10rem;
+  max-height: 10rem;
+  width: auto;
+  height: auto;
+  margin: 1rem;
 }
 
-.about-logos-competencia{
-    margin: 0rem auto 2rem;
+.about-logos-competencia {
+  margin: 0 auto 2rem;
 }
 
 /* ----------------------------------------- About -> Equipo ----------------------------------------------- */
 #equipo {
-    max-width: 1440px;
-    margin: 0;
-    padding: 0;
-    background-color: #27496d;
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+  background-color: #27496d;
 }
 
-.equipo-perfil{
-    padding: 1rem 0;
-    border-bottom: solid white;
+.equipo-perfil {
+  padding: 1rem 0;
+  border-bottom: solid white;
 }
 
 .equipo-img {
-    object-fit: cover;
-
-    width: 280px;
-    height: 320px;
-    min-height: 5rem;
-    max-height: 20rem;
+  object-fit: cover;
+  width: 280px;
+  height: 320px;
+  min-height: 5rem;
+  max-height: 20rem;
 }
 
-.equipo-texto{
-    color: white;
-    margin: auto;
+.equipo-texto {
+  color: white;
+  margin: auto;
 }
 
-.equipo-iconos{
-    color: white;
+.equipo-iconos {
+  color: white;
 }
 
 /* ----------------------------------------- Footer ----------------------------------------------- */
 #footer {
-    text-align: center;
+  text-align: center;
 }
 
-.email-contacto{
-    font-size: small;
+.email-contacto {
+  font-size: small;
 }
 
 /* ----------------------------------------- Form ----------------------------------------------- */
-#form-section{
-    margin: 0;
-    padding: 0;
-    
-    
+#form-section {
+  margin: 0;
+  padding: 0;
 }
 
-.form-element{
-    margin: 2rem auto;
+.form-element {
+  margin: 2rem auto;
 }
 
-.form-button{
-    margin: 2rem auto;
+.form-button {
+  margin: 2rem auto;
 }
