@@ -4,7 +4,7 @@ import ReactRotatingText from 'react-rotating-text';
 
 function Hero(props) {
 
-    const arrayText = ["ceremonias", 'eventos', 'documentos', 'certificados', 'contratos']
+    const arrayText = ["ceremonias", 'eventos', 'documentos', 'certificados', 'contratos', 'conferencias', 'notas', 'diplomas']
 
     return (
         <div id={props.id}>      
