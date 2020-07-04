@@ -33,15 +33,18 @@ function Navigation(props) {
             style={{ transition: '0.5s ease' }}
             expand='md'
         >
-            <Navbar.Brand href="/">
+            <Navbar.Brand href="/"
+                className = 'd-flex flex-row align-items-center'
+            >
             <img
                 src="/img/Logo.png"
-                width="60"
-                height="60"
+                width="80"
+                height="80"
                 href="/"
-                className="d-inline-block align-top"
+                className="d-inline-block m-1"
                 alt="Logo"
             />
+            <i class="text-white fas fa-headphones-alt fa-2x"></i>
             </Navbar.Brand>
             
             <Button 
@@ -51,15 +54,6 @@ function Navigation(props) {
             >
             Cotiza ya!
             </Button>
-
-            <Nav className="right-menu" >
-                
-                <Navbar.Toggle className="toogle-button"aria-controls="responsive-navbar-nav"/>
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav.Link className="texto-nav" href="/#about">Equipo</Nav.Link>
-                </Navbar.Collapse>
-                
-            </Nav>
         
         </Navbar>
     )
