@@ -38,13 +38,12 @@ function Navigation(props) {
             >
             <img
                 src="/img/Logo.png"
-                width="80"
-                height="80"
+                width="100"
+                height="100"
                 href="/"
                 className="d-inline-block m-1"
                 alt="Logo"
             />
-            <i class="text-white fas fa-headphones-alt fa-2x"></i>
             </Navbar.Brand>
             
             <Button 

@@ -17,7 +17,7 @@ function Services (props) {
             ]
         },
         {
-            logo: <i className="servicios-iconos fas fa-microphone fa-5x"></i>,
+            logo: <i class="servicios-iconos fas fa-headphones-alt fa-5x"></i>,
             titulo: "Traducciones Simultáneas",
             parrafo: [
                 'Traducción en línea de webinars a través de plataformas como ZOOM.',
