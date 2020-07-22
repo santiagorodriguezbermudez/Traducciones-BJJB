@@ -38,8 +38,8 @@ function Navigation(props) {
             >
             <img
                 src="/img/Logo.png"
-                width="100"
-                height="100"
+                width="90"
+                height="90"
                 href="/"
                 className="d-inline-block m-1"
                 alt="Logo"
