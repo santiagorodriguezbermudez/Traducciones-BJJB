@@ -91,7 +91,7 @@ function About (props) {
                     </Col>
                 ))}
             </Row>
-            <p className = 'my-5'>Nuestros clientes son tanto empresas como personas naturales, privados como públicos, compañías locales como multinacionales y en varios sectores, tales como: ingeniería, tecnología, educación, planeación, medicina, salud, legal, financiero y mercadeo.</p>
+            <p className = 'my-5 about-description'>Nuestros clientes son tanto empresas como personas naturales, privados como públicos, compañías locales como multinacionales y en varios sectores, tales como: ingeniería, tecnología, educación, planeación, medicina, salud, legal, financiero y mercadeo.</p>
             <Row>
                 <Col sm={false} md={true} lg={true} className="about-logos-competencia">
                     <img className="about-client-logo" src="img/Empresa-1.png" alt="logo-1"/>

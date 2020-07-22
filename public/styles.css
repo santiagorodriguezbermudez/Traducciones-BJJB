@@ -134,6 +134,10 @@ h6 {
 }
 
 /* ----------------------------------------- About -> Equipo ----------------------------------------------- */
+.about-description {
+  font-size: 1.5rem;
+}
+
 #equipo {
   max-width: 1440px;
   margin: 0;
