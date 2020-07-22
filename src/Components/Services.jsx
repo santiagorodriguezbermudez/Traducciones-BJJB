@@ -33,7 +33,7 @@ function Services (props) {
             <Container id={props.id} >
                 <Row>
                     <p className = 'text-white text-center p-5'>
-                        Con más de 30 años de experiencia, ofrecemos servicios de traducción escrita e interpretación entre los idiomas español e inglés. Nuestras traducciones son de alta confiabilidad, precisión, calidad y naturalidad.  Contamos con un equipo de traductores altamente calificado y comprometido para atender todas sus necesidades de traducción de manera precisa y oportuna. Estamos registrados ante el Ministerio de Relaciones Exteriores de la República de Colombia, y varias embajadas, entre ellas: Estados Unidos y el Reino Unido. Somos miembros de la American Translators Association  - ATA - y Asociación Nacional de Traductores e Intérpretes Oficiales - ANATI-O Tenemos cobertura en las siguientes ciudades:  Barranquilla, Bogotá y Medellín.
+                    Con más de 30 años de experiencia, ofrecemos servicios de traducción escrita e interpretación entre los idiomas español e inglés. Nuestras traducciones son de alta confiabilidad, precisión, calidad y naturalidad. Contamos con un equipo de traductores altamente calificado y comprometido para atender todas sus necesidades de traducción de manera precisa y oportuna. Somos miembros de la American Translators Association (ATA) y Asociación Nacional de Traductores e Intérpretes Oficiales de Colombia (ANATI-O).
                     </p>
                 </Row>
                 

@@ -7,11 +7,11 @@ function Team (props) {
 
     const teamMembers = [
         {
-            perfil: "img/Perfil-JB.png",
+            perfil: "img/Perfil-JB.jpg",
             nombre: "Jorge Bermudez",
             titulo: 'Gerente General',
-            descripción: 'Traductor e intérprete Oficial (Español-Inglés) registrado ante el Ministerio de Relaciones Exteriores de la República de Coloma. Ingeniero Industrial egresado de la Universidad de los Andes con Maestría en Planificación Urbana de New York University.',
-            linkLinkedIn: "https://www.linkedin.com/in/jorge-berm%C3%BAdez-celin/"              
+            descripción: 'Traductor e intérprete Oficial (Español-Inglés) registrado ante el Ministerio de Relaciones Exteriores de la República de Colombia. Ingeniero Industrial egresado de la Universidad de los Andes con Maestría en Planificación Urbana de New York University.',
+            linkLinkedIn: "https://www.linkedin.com/in/jorge-bermudez-celin/"              
         },
         {
             perfil: "img/Perfil-KM.png",
@@ -25,14 +25,14 @@ function Team (props) {
             nombre: "Mateo Rodríguez Bermúdez",
             titulo: 'Traductor',
             descripción: 'Economista y Traductor egresado de la Universidad de los Andes, con Maestría en Desarrollo Social de University College of London',
-            linkLinkedIn: "https://www.linkedin.com/in/mateo-rodr%C3%ADguez-berm%C3%BAdez/"
+            linkLinkedIn: "https://www.linkedin.com/in/mateo-rodriguez-bermudez/"
         },
         {
             perfil: "img/Perfil-SR.png",
             nombre: "Santiago Rodríguez Bermúdez",
             titulo: 'Traductor',
             descripción: 'Ingeniero Industrial y Traductor egresado de la Universidad de los Andes con énfasis en el sector de emprendimiento',
-            linkLinkedIn: "https://www.linkedin.com/in/srba87/"
+            linkLinkedIn: "https://www.linkedin.com/in/srba/"
         }
     ]
 
@@ -58,18 +58,17 @@ function Team (props) {
                     <h2>{member.nombre}</h2>
                     <h4>{member.titulo}</h4>
                     <p>{member.descripción}</p>
-                    <a href={member.linkLinkedIn}><i className="equipo-iconos fab fa-linkedin fa-2x"></i></a>
+                    <a href={member.linkLinkedIn} className='equipo-texto'><i className="equipo-iconos fab fa-linkedin fa-2x"></i>  {member.linkLinkedIn}</a>
                 </Col>
                 
             </Row>
-            
         )
-
     }
 
     return (
 
         <Container id={props.id}>
+            <h2 className = 'equipo-titulo text-white text-center mb-2 text-larger'>Nuestro Equipo</h2>
             {teamMembers.map((member, index) => orderContainerLayout(member, index))}
         </Container>
         
