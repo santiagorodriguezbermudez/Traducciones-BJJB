@@ -25,7 +25,7 @@ function Team (props) {
             nombre: "Mateo Rodríguez Bermúdez",
             titulo: 'Traductor',
             descripción: 'Economista y Traductor egresado de la Universidad de los Andes, con Maestría en Desarrollo Social de University College of London',
-            linkLinkedIn: "https://www.linkedin.com/in/mateo-rodriguez-bermudez/"
+            linkLinkedIn: "https://www.linkedin.com/in/mateo-rodríguez-bermúdez/"
         },
         {
             perfil: "img/Perfil-SR.png",

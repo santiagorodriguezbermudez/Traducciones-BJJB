@@ -102,7 +102,7 @@ function About (props) {
                     <img className="about-client-logo" src="img/Empresa-6.png" alt="logo-6"/>
                     <img className="about-client-logo" src="img/Empresa-7.png" alt="logo-7"/>
                     <img className="about-client-logo" src="img/Empresa-8.jpg" alt="logo-8"/>
-                    <img className="about-client-logo" src="img/Empresa-9.png" alt="logo-9"/>
+                    <img className="about-client-logo" src="img/Empresa-9.jpg" alt="logo-9"/>
                     <img className="about-client-logo" src="img/Empresa-10.png" alt="logo-10"/>
                     <img className="about-client-logo" src="img/Empresa-11.png" alt="logo-11"/>
                     <img className="about-client-logo" src="img/Empresa-12.jpg" alt="logo-12"/>
