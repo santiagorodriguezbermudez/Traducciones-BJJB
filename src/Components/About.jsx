@@ -76,8 +76,8 @@ function About (props) {
                 <h2>NUESTROS CLIENTES</h2>
                 <h4>Proyectos Completados: 
                     <CountUp
-                        end={873}
-                        duration={25}
+                        end={1314}
+                        duration={30}
                     />
                 </h4>
             
