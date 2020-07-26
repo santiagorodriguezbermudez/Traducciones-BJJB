@@ -52,7 +52,7 @@ function Team (props) {
         return (
             <Row key={index} className="equipo-perfil">
                 <Col md={{span: 4, order:imgOrder}}>
-                    <img src={member.perfil} alt="perfil" className="equipo-img"></img>
+                    <a href={member.linkLinkedIn}><img src={member.perfil} alt="perfil" className="equipo-img"></img></a>
                 </Col>
                 <Col md={{span:8, order:textOrder}} className="equipo-texto">
                     <h2>{member.nombre}</h2>
