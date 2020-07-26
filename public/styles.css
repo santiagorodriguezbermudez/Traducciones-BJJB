@@ -249,12 +249,12 @@ h6 {
 /* ----------------------------------------Mobile media Query---------------------------------------------------------------- */
 @media (max-width: 420px) {
   .carousel-caption h4 {
-    line-height: 1rem;
+    line-height: 0.9rem;
     font-size: 0.7rem;
   }
 
   .testimonio {
-    min-height: 22rem;
+    min-height: 24rem;
   }
 
   .carousel-caption h6 {

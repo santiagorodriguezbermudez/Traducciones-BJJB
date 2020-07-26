@@ -14,7 +14,7 @@ function About (props) {
             firma: [
                 'Paola Pérez M. ',
                 'Representante Legal',
-                'Royal Haskoning DHV - Colombia.'
+                'Royal Haskoning DHV - (Bogotá, Colombia y Países Bajos).'
             ]
         },
         {
@@ -22,7 +22,7 @@ function About (props) {
             firma: [
                 'Bart Winder',
                 'Senior Maritime Consultant',
-                'Port Consultants of Rotterdam.'
+                'Port Consultants of Rotterdam - (Rotterdam, Países Bajos).'
             ]
         },
         {
@@ -30,13 +30,13 @@ function About (props) {
             firma: [
                 'Carlos Sarmiento Jurado',
                 'Director de Nuevos Productos',
-                'TCL.'
+                'TCL - (Barranquilla, Colombia).'
             ]
         },
         {
             texto: "\"Jorge celebrated my marriage ceremony and translated parts of the ceremony since both of our families come from different language speaking countries. His job was great and added a personal touch to his words. I will always remember this special moment of our lives!\"",
             firma: [
-                'Cynthia Deignan.'
+                'Cynthia Deignan - (Las Vegas, Estados Unidos).'
             ]
         },
         {
@@ -44,7 +44,7 @@ function About (props) {
             firma: [
                 'Carlos Rafael Casadiego',
                 'Gerente',
-                'Bastidas TV.'
+                'Bastidas TV - (Barranquilla, Colombia).'
             ]
         },
         {
@@ -52,7 +52,7 @@ function About (props) {
             firma: [
                 'Yalmar Vargas Tovar',
                 'Profesor Tiempo Completo',
-                'Escuela de Arquitectura Urbanismo y Diseño Universidad del Norte.'
+                'Escuela de Arquitectura Urbanismo y Diseño Universidad del Norte - (Barranquilla, Colombia).'
             ]
         },
         {
@@ -60,13 +60,13 @@ function About (props) {
             firma: [
                 'Silvina Pereira Marques',
                 'Area Maneger Latinoamérica',
-                ' STC International.'
+                'STC International - (Colombia y Países Bajos).'
             ]
         },
         {
             texto: "\"When I was married in Santo Domingo in 1998, Jorge assisted me first by translating a printed program that I had prepared in English. The program included lyrics to songs that presented a unique challenge to maintain the spirit of the music and relevance to the wedding.  Then as Best Man at the wedding, Jorge ably provided live translation for speeches and other interactions between guests, many of whom spoke only English or Spanish.  Both his editorial and live translations were excellent and contributed significantly to the bi-lingual wedding.\"",
             firma: [
-                ' Mark C. Walker.'
+                ' Mark C. Walker - (New York, Estados Unidos).'
             ]
         }
     ]
