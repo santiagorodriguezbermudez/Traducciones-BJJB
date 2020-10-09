@@ -10,29 +10,33 @@ function Team (props) {
             perfil: "img/Perfil-JB.png",
             nombre: "Jorge Bermudez Celín",
             titulo: 'Gerente General',
-            descripción: 'Traductor e intérprete Oficial (Español-Inglés) registrado ante el Ministerio de Relaciones Exteriores de la República de Coloma. Ingeniero Industrial egresado de la Universidad de los Andes con Maestría en Planificación Urbana de New York University.',
-            linkLinkedIn: "https://www.linkedin.com/in/jorge-berm%C3%BAdez-celin/"              
+            descripción: 'Traductor e intérprete Oficial (Español-Inglés) registrado ante el Ministerio de Relaciones Exteriores de la República de Colombia. Ingeniero Industrial egresado de la Universidad de los Andes con Maestría en Planificación Urbana de New York University.',
+            linkLinkedIn: "https://www.linkedin.com/in/jorge-bermudez-celin/",
+            linkDescription: 'Jorge Bermudez Celin'              
         },
         {
             perfil: "img/Perfil-KM.png",
             nombre: "Karol Méndez Oñate",
             titulo: 'Traductor',
             descripción: 'Traductora e Intérprete Certificada en Adelphi University. Comunicadora y Especialista en Relaciones Públicas egresada de Florida International University',
-            linkLinkedIn: "https://www.linkedin.com/in/karolmendez/"
+            linkLinkedIn: "https://www.linkedin.com/in/karolmendez/",
+            linkDescription: 'Karol Méndez Oñate'              
         },
         {
             perfil: "img/Perfil-MR.png",
             nombre: "Mateo Rodríguez Bermúdez",
             titulo: 'Traductor',
             descripción: 'Economista y Traductor egresado de la Universidad de los Andes, con Maestría en Desarrollo Social de University College of London',
-            linkLinkedIn: "https://www.linkedin.com/in/mateo-rodr%C3%ADguez-berm%C3%BAdez/"
+            linkLinkedIn: "https://www.linkedin.com/in/mateo-rodríguez-bermúdez/",
+            linkDescription: 'Mateo Rodríguez Bermúdez'  
         },
         {
             perfil: "img/Perfil-SR.png",
             nombre: "Santiago Rodríguez Bermúdez",
             titulo: 'Traductor',
             descripción: 'Ingeniero Industrial y Traductor egresado de la Universidad de los Andes con énfasis en el sector de emprendimiento',
-            linkLinkedIn: "https://www.linkedin.com/in/srba87/"
+            linkLinkedIn: "https://www.linkedin.com/in/srba/",
+            linkDescription: 'Santiago Rodríguez Bermúdez'  
         }
     ]
 
@@ -58,18 +62,17 @@ function Team (props) {
                     <h2>{member.nombre}</h2>
                     <h4>{member.titulo}</h4>
                     <p>{member.descripción}</p>
-                    <a href={member.linkLinkedIn}><i className="equipo-iconos fab fa-linkedin fa-2x"></i></a>
+                    <a href={member.linkLinkedIn} className='equipo-texto' target="blank"><i className="equipo-iconos fab fa-linkedin fa-2x mr-2"></i>{member.linkDescription}</a>
                 </Col>
                 
             </Row>
-            
         )
-
     }
 
     return (
 
         <Container id={props.id}>
+            <h2 className = 'equipo-titulo text-white text-center mb-2 text-larger'>Nuestro Equipo</h2>
             {teamMembers.map((member, index) => orderContainerLayout(member, index))}
         </Container>
         

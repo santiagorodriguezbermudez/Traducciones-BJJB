@@ -17,7 +17,7 @@ function Services (props) {
             ]
         },
         {
-            logo: <i className="servicios-iconos fas fa-microphone fa-5x"></i>,
+            logo: <i class="servicios-iconos fas fa-headphones-alt fa-5x"></i>,
             titulo: "Traducciones Simultáneas",
             parrafo: [
                 'Traducción en línea de webinars a través de plataformas como ZOOM.',
@@ -33,7 +33,7 @@ function Services (props) {
             <Container id={props.id} >
                 <Row>
                     <p className = 'text-white text-center p-5'>
-                        Con más de 30 años de experiencia, ofrecemos servicios de traducción escrita e interpretación entre los idiomas español e inglés. Nuestras traducciones son de alta confiabilidad, precisión, calidad y naturalidad.  Contamos con un equipo de traductores altamente calificado y comprometido para atender todas sus necesidades de traducción de manera precisa y oportuna. Estamos registrados ante el Ministerio de Relaciones Exteriores de la República de Colombia, y varias embajadas, entre ellas: Estados Unidos y el Reino Unido. Somos miembros de la American Translators Association  - ATA - y Asociación Nacional de Traductores e Intérpretes Oficiales - ANATI-O Tenemos cobertura en las siguientes ciudades:  Barranquilla, Bogotá y Medellín.
+                    Con más de 30 años de experiencia, ofrecemos servicios de traducción escrita e interpretación entre los idiomas español e inglés. Nuestras traducciones son de alta confiabilidad, precisión, calidad y naturalidad. Contamos con un equipo de traductores altamente calificado y comprometido para atender todas sus necesidades de traducción de manera precisa y oportuna. <br></br><br></br>Somos miembros de la American Translators Association (ATA) y Asociación Nacional de Traductores e Intérpretes Oficiales de Colombia (ANATI-O).
                     </p>
                 </Row>
                 
