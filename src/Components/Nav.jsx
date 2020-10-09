@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
-import Button from 'react-bootstrap/Button';
 
 
 
@@ -44,14 +43,6 @@ function Navigation(props) {
                 alt="Logo"
             />
             </Navbar.Brand>
-            
-            <Button 
-                className="ml-auto justify-content-end" 
-                variant="primary" 
-                href="/contacto"    
-            >
-            Cotiza ya!
-            </Button>
         
         </Navbar>
     )
