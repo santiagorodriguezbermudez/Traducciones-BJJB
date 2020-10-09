@@ -7,7 +7,7 @@ function Team (props) {
 
     const teamMembers = [
         {
-            perfil: "img/Perfil-JB.png",
+            perfil: "img/Perfil-JB.jpg",
             nombre: "Jorge Bermudez Celín",
             titulo: 'Gerente General',
             descripción: 'Traductor e intérprete Oficial (Español-Inglés) registrado ante el Ministerio de Relaciones Exteriores de la República de Colombia. Ingeniero Industrial egresado de la Universidad de los Andes con Maestría en Planificación Urbana de New York University.',
