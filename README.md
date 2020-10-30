@@ -4,7 +4,7 @@
 
 ![screenshot](public/img/Screenshot.png)
 
-This project consists of building a website's Landing Page using react to animate different video media and make it responsive. Use email js to manage contact information and triggering automated emails. 
+BJJB is a translation agency serving in Barranquilla, Colombia. They needed a website to close new deals. I created a simple website to showcase their services and connect a simple contact form with their manager account. The project is just a start and we plan to build a blog functionality as well as the same webpage in different languages. For now, we have created the page in Spanish which is their base language for most of their clients.
 
 ## Built With
 
@@ -17,7 +17,7 @@ This project consists of building a website's Landing Page using react to animat
 
 ## Live Demo
 
-[Live Demo Link](https://testbjjb2.herokuapp.com)
+[Live Demo Link](https://traduccionesjbc.com/)
 
 ## Authors
 
